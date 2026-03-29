@@ -1,0 +1,7 @@
+[project]
+name = "haven"
+version = "0.1.0"
+dependencies = ["textual", "pillow"]
+
+[project.scripts]
+haven = "haven.entry_point:main"
